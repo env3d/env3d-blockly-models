@@ -5,6 +5,7 @@ from functools import reduce
 def firstElem(ary):
     return ary[0] if len(ary)>0 else None
 
+# take the file extension and use as key
 def reducer(x, y):
     x[y[-3::]] = y
     return x
@@ -13,6 +14,7 @@ def reducer(x, y):
 def process_dir(d):
     name = d
     files = [d+'/'+f for f in os.listdir(d) if os.path.isfile(d+'/'+f) and not f.startswith('.')]
+    # add each file type into the same object
     obj = reduce(reducer, [{}]+files)
     obj['name'] = d
     return obj
