@@ -20,7 +20,7 @@ def process_dir(d):
     return obj
 
 dirs = os.listdir('./')
-l = [ process_dir(d) for d in dirs if os.path.isdir(d)]
+l = [ process_dir(d) for d in dirs if os.path.isdir(d) and not d.startswith('.')]
 
 
 print(json.dumps(l, indent=4,separators=(',', ': ')))

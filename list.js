@@ -1,5 +1,10 @@
 [
     {
+        "mtl": "gas-station/gasstation.mtl",
+        "obj": "gas-station/GasStation.obj",
+        "name": "gas-station"
+    },
+    {
         "obj": "intersection/intersection.obj",
         "mtl": "intersection/materials.mtl",
         "name": "intersection"
