@@ -1,27 +1,32 @@
 [
     {
-        "mtl": "dino/obj.mtl",
         "obj": "dino/tinker.obj",
-        "name": "dino"
+        "name": "dino",
+        "mtl": "dino/obj.mtl"
     },
     {
-        "mtl": "gas-station/gasstation.mtl",
         "obj": "gas-station/GasStation.obj",
-        "name": "gas-station"
+        "name": "gas-station",
+        "mtl": "gas-station/gasstation.mtl"
+    },
+    {
+        "obj": "house/tinker.obj",
+        "name": "house",
+        "mtl": "house/obj.mtl"
     },
     {
         "obj": "intersection/intersection.obj",
-        "mtl": "intersection/materials.mtl",
-        "name": "intersection"
+        "name": "intersection",
+        "mtl": "intersection/materials.mtl"
     },
     {
-        "mtl": "rio/materials.mtl",
         "obj": "rio/model-triangulated.obj",
-        "name": "rio"
+        "name": "rio",
+        "mtl": "rio/materials.mtl"
     },
     {
-        "mtl": "titanic/materials.mtl",
         "obj": "titanic/model-triangulated.obj",
-        "name": "titanic"
+        "name": "titanic",
+        "mtl": "titanic/materials.mtl"
     }
 ]
