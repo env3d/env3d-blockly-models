@@ -1,5 +1,10 @@
 [
     {
+        "mtl": "dino/obj.mtl",
+        "obj": "dino/tinker.obj",
+        "name": "dino"
+    },
+    {
         "mtl": "gas-station/gasstation.mtl",
         "obj": "gas-station/GasStation.obj",
         "name": "gas-station"
