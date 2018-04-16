@@ -1,0 +1,131 @@
+<html>
+    <!-- Entry point for scenecreator based applications -->
+    <head>
+        
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes" />        
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <script src="https://beta.c3d.io/js/env3d.js"></script>
+        <script src="https://beta.c3d.io/js/webvr-polyfill.min.js"></script>
+        
+        <script type="text/javascript">
+         var WebVRConfig = {
+             // Prevents the polyfill from initializing automatically.
+             DEFER_INITIALIZATION: false,
+             // Ensures the polyfill is always active when initialized, even if the
+             // native API is available. This is probably NOT what most pages want.
+             ALWAYS_APPEND_POLYFILL_DISPLAY: true,
+             BUFFER_SCALE: 0.5
+         }
+
+         if (!navigator.vrDisplay) {
+             var webvrPolyfill = new WebVRPolyfill(WebVRConfig);
+         }
+
+         var m = {
+             x: 5,
+             y: 3,
+             z: 1,
+             texture: null
+         };
+
+         let baseUrl = window.location.origin+window.location.pathname;
+
+         function fetchModels() {
+             fetch('list.js').then( res => {
+                 return res.json();
+             }).then(json => {
+                 console.log(json);
+                 // array of available models
+
+                 json.forEach( i => {
+                     item = document.createElement('li');
+                     item.innerHTML = i.name;
+                     models.append(item);
+                     item.addEventListener('click', () => {
+                         m.mtl = baseUrl+i.mtl;
+                         m.model = baseUrl+i.obj;
+                         console.log(i,m.mtl,m.model);                             
+                     });
+                 });                 
+                 
+             });
+         }
+         
+         function initEnv() {
+             env3d.Env.baseAssetsUrl = "https://env3d.github.io/env3d-js/dist/"
+             env = new env3d.Env(true);
+
+             env.scene.add( new THREE.HemisphereLight( 0x7d7d7d, 0x000000 ) );
+
+             [
+                 {x: -4, y: -4, z: -4},
+                 {x: 1, y: 2, z: 1}
+             ].map( p => {
+                 var light = new THREE.DirectionalLight( 0xffffff);
+                 light.position.set( p.x, p.y, p.z ).normalize();
+                 return light;
+             }).forEach ( l => {
+                 env.scene.add( l );
+             });                 
+             
+             env.setCrosshair(true);
+             
+             env.setRoom({textureNorth: null, textureSouth: null,
+                          textureEast: null, textureWest: null,
+                          textureTop: null, textureBottom: null});
+             
+             env.setSky('https://env3d.github.io/env3d-js/dist/textures/skybox/default');             
+                          
+             env.addObject(m);
+
+             env.start({vr: true});             
+         }         
+         
+         window.addEventListener('load', () => {
+             fetchModels();
+             initEnv();             
+         });
+         
+        </script>
+        <style>
+         * {
+             margin: 0;
+             padding: 0;
+         }
+         
+         canvas {
+             display: block;
+             width: 100%;
+             height: 100%;
+         }
+
+         #models {
+             display: block;
+             position: fixed;
+             left: 5%;
+             top: 5%;
+             list-style-type: none;
+         }
+
+         #models li {
+             background-color: rgba(200,200,200,0.8);
+             cursor: default;
+         }
+
+         #models li:hover{
+             font-size: 120%;
+         }
+         
+
+         
+        </style>
+    </head>
+    <body>
+        <div id="env3d"></div>
+        <ul id="models">
+        </ul>
+    </body>
+</html>
