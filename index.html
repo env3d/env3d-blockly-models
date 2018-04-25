@@ -45,9 +45,14 @@
                      item.innerHTML = i.name;
                      models.append(item);
                      item.addEventListener('click', () => {
-                         m.mtl = baseUrl+i.mtl;
-                         m.model = baseUrl+i.obj;
-                         console.log(i,m.mtl,m.model);                             
+                         if (i.fbx) {
+                             m.model = baseUrl+i.fbx;
+                             console.log(i,m.model);
+                         } else if (i.mtl && i.obj) {
+                             m.mtl = baseUrl+i.mtl;
+                             m.model = baseUrl+i.obj;
+                             console.log(i,m.mtl,m.model);                             
+                         }
                      });
                  });                 
                  
@@ -58,7 +63,9 @@
              env3d.Env.baseAssetsUrl = "https://env3d.github.io/env3d-js/dist/"
              env = new env3d.Env(true);
 
-             env.scene.add( new THREE.HemisphereLight( 0x7d7d7d, 0x000000 ) );
+             let hl =  new THREE.HemisphereLight( 0x7d7d7d, 0x000000 );
+
+             env.scene.add(hl);
 
              [
                  {x: -4, y: -4, z: -4},
