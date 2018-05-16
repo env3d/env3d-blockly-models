@@ -1,8 +1,7 @@
 [
     {
-        "mtl": "dino/obj.mtl",
-        "obj": "dino/tinker.obj",
-        "name": "dino"
+        "fbx": "four-seasons/e_fourseasons_ascii.fbx",
+        "name": "four-seasons"
     },
     {
         "mtl": "gas-station/gasstation.mtl",
