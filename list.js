@@ -1,6 +1,6 @@
 [
     {
-        "fbx": "four-seasons/e_fourseasons.fbx",
+        "fbx": "four-seasons/e_fourseasons_ascii.fbx",
         "name": "four-seasons"
     },
     {
