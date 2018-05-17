@@ -72,7 +72,7 @@
         "name": "e_worldsedge"
     },
     {
-        "fbx": "four-seasons/e_fourseasons_ascii.fbx",
+        "fbx": "four-seasons/e_fourseasons_unmerged.fbx",
         "name": "four-seasons"
     },
     {
