@@ -1,5 +1,10 @@
 [
     {
+        "mtl": "dino/obj.mtl",
+        "obj": "dino/tinker.obj",
+        "name": "dino"
+    },
+    {
         "fbx": "e_airport/e_airport.fbx",
         "name": "e_airport"
     },
@@ -14,6 +19,10 @@
     {
         "fbx": "e_desert/e_desert.fbx",
         "name": "e_desert"
+    },
+    {
+        "fbx": "e_four_seasons/e_four_seasons.json",
+        "name": "e_four_seasons"
     },
     {
         "fbx": "e_highwayandroads/e_highwayandroads.fbx",

@@ -7,7 +7,8 @@ def firstElem(ary):
 
 # take the file extension and use as key
 def reducer(x, y):
-    x[y[-3::]] = y
+    ext = y.split('.')[-1]
+    x[ext] = y
     return x
 
 # given a directory, find the relevant obj, mtl, and image files
@@ -16,6 +17,9 @@ def process_dir(d):
     files = [d+'/'+f for f in os.listdir(d) if os.path.isfile(d+'/'+f) and not f.startswith('.')]
     # add each file type into the same object
     obj = reduce(reducer, [{}]+files)
+    if 'json' in obj:
+        obj['fbx'] = obj['json']
+        del obj['json']
     obj['name'] = d
     return obj
 

@@ -1,0 +1,329 @@
+{
+    "AssetID": "e_four_seasons",
+    "Components": [
+        {
+            "Asset": "e_airport.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_barns.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_clouds.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_desert.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_highwayandroads.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_lakemountains.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_lighthouse.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_mainland.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_piertown.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_sierra.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_sierra_trees.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_trees_desert.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_trees_oranges.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_trees_vineyard.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_underearth.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_volcano.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_water.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "Asset": "e_worldsedge.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}
