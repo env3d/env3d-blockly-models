@@ -1,13 +1,13 @@
 import os
 import json
 
-# returns an object at origin with no rotation and scale
+# returns an object at origin with no rotation
 def process_file(f):
     obj = {}
     obj["Asset"] = f
     obj["Offset"] = [0,0,0]
     obj["Rotation"] = [0,0,0]
-    obj["Scale"] = [0,0,0]
+    obj["Scale"] = [1,1,1]
     return obj
     
 
