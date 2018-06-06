@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Flora.a_rock_desert_ac",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_rock_desert_ac.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

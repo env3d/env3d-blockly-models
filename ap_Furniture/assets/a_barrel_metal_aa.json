@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Furniture.a_barrel_metal_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_barrel_metal_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

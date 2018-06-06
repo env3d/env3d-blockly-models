@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Furniture.a_box_rectangle_hollow_ab",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_box_rectangle_hollow_ab.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

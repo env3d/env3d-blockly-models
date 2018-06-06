@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Furniture.a_furniture_wallshelf_wood_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_furniture_wallshelf_wood_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Furniture.a_light_hangingbulb_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_light_hangingbulb_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

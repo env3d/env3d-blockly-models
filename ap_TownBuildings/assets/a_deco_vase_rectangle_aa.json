@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_TownBuildings.a_deco_vase_rectangle_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_deco_vase_rectangle_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

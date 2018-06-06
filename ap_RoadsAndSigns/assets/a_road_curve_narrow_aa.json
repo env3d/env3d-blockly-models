@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_RoadsAndSigns.a_road_curve_narrow_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_road_curve_narrow_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

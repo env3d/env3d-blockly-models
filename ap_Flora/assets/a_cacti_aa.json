@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Flora.a_cacti_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_cacti_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

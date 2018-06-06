@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Flora.a_grass_ab",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_grass_ab.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

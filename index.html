@@ -64,7 +64,7 @@
              env3d.Env.baseAssetsUrl = "https://env3d.github.io/env3d-js/dist/"
              env = new env3d.Env(true);
 
-             let hl =  new THREE.HemisphereLight( 0x7d7d7d, 0x000000 );
+             let hl =  new THREE.HemisphereLight( 0xffffff, 0x000000, 10 );
 
              env.scene.add(hl);
 

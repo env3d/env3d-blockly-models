@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_Vehicles.a_boat_raft_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_boat_raft_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

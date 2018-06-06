@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_RoadsAndSigns.a_street_sign_ac",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_street_sign_ac.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+

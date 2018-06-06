@@ -1,0 +1,13 @@
+{
+	"AssetID": "ap_TownBuildings.a_fence_planks_white_aa",
+	"Components":
+	[
+		{
+			"Asset": "../components/c_fence_planks_white_aa.fbx",
+			"Offset": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		}
+	]
+ }
+
