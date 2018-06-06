@@ -1,5 +1,9 @@
 [
     {
+        "fbx": "ap_Flora/assets/a_cacti_aa.json",
+        "name": "ap_Flora.a_cacti_aa"
+    },
+    {
         "fbx": "e_four_seasons/e_four_seasons.json",
         "name": "e_four_seasons"
     },
