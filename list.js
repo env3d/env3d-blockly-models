@@ -1,9 +1,5 @@
 [
     {
-        "fbx": "Tutorial Module 1/character1.fbx",
-        "name": "Tutorial Module 1"
-    },
-    {
         "mtl": "gas-station/gasstation.mtl",
         "obj": "gas-station/GasStation.obj",
         "name": "gas-station"
@@ -671,6 +667,10 @@
     {
         "fbx": "ap_Furniture/assets/a_deco_windchimes_aa.json",
         "name": "ap_Furniture/a_deco_windchimes_aa"
+    },
+    {
+        "fbx": "tutorial-module-1/test_character1_2190608.fbx",
+        "name": "tutorial-module-1"
     },
     {
         "fbx": "e_four_seasons/e_four_seasons.json",
