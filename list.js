@@ -685,6 +685,10 @@
         "name": "ap_Furniture/a_deco_windchimes_aa"
     },
     {
+        "obj": "test_char_obj/Character1_20190612.obj",
+        "name": "test_char_obj"
+    },
+    {
         "fbx": "e_four_seasons/e_four_seasons.json",
         "name": "e_four_seasons"
     }
