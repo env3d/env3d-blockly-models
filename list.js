@@ -1,8 +1,8 @@
 [
     {
-        "mtl": "gas-station/gasstation.mtl",
         "obj": "gas-station/GasStation.obj",
-        "name": "gas-station"
+        "name": "gas-station",
+        "mtl": "gas-station/gasstation.mtl"
     },
     {
         "fbx": "ap_Industries/assets/a_airport_tower_aa.json",
@@ -25,12 +25,12 @@
         "name": "ap_Industries/a_farm_barn_open_aa"
     },
     {
-        "fbx": "tutorial/test_character1_2190608.fbx",
-        "name": "tutorial"
-    },
-    {
         "fbx": "test-house-b/testHouse_B.fbx",
         "name": "test-house-b"
+    },
+    {
+        "fbx": "tutorial-test-character/test_character1_2190608.fbx",
+        "name": "tutorial-test-character"
     },
     {
         "fbx": "ap_RoadsAndSigns/assets/a_road_curve_ab.json",
@@ -161,14 +161,18 @@
         "name": "env_FourSeasons/a_FourSeasons"
     },
     {
-        "mtl": "intersection/materials.mtl",
         "obj": "intersection/intersection.obj",
-        "name": "intersection"
+        "name": "intersection",
+        "mtl": "intersection/materials.mtl"
+    },
+    {
+        "fbx": "tutorial-character-1/character1.fbx",
+        "name": "tutorial-character-1"
     },
     {
         "obj": "rio/model-triangulated.obj",
-        "mtl": "rio/materials.mtl",
-        "name": "rio"
+        "name": "rio",
+        "mtl": "rio/materials.mtl"
     },
     {
         "fbx": "ap_TownBuildings/assets/a_deco_vase_square_aa.json",
@@ -568,13 +572,13 @@
     },
     {
         "obj": "house/tinker.obj",
-        "mtl": "house/obj.mtl",
-        "name": "house"
+        "name": "house",
+        "mtl": "house/obj.mtl"
     },
     {
         "obj": "titanic/model-triangulated.obj",
-        "mtl": "titanic/materials.mtl",
-        "name": "titanic"
+        "name": "titanic",
+        "mtl": "titanic/materials.mtl"
     },
     {
         "fbx": "ap_Furniture/assets/a_furniture_wallshelf_metal_aa.json",
