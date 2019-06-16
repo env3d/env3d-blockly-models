@@ -29,10 +29,6 @@
         "name": "test-house-b"
     },
     {
-        "fbx": "tutorial-models/Model1_20190615.fbx",
-        "name": "tutorial-models"
-    },
-    {
         "fbx": "ap_RoadsAndSigns/assets/a_road_curve_ab.json",
         "name": "ap_RoadsAndSigns/a_road_curve_ab"
     },
@@ -159,6 +155,10 @@
     {
         "fbx": "env_FourSeasons/assets/a_FourSeasons.json",
         "name": "env_FourSeasons/a_FourSeasons"
+    },
+    {
+        "fbx": "model1/Model1_20190615.fbx",
+        "name": "model1"
     },
     {
         "mtl": "intersection/materials.mtl",
@@ -675,5 +675,17 @@
     {
         "fbx": "e_four_seasons/e_four_seasons.json",
         "name": "e_four_seasons"
+    },
+    {
+        "fbx": "model3/Model3_20190615.fbx",
+        "name": "model3"
+    },
+    {
+        "fbx": "model4/Model4_20190615.fbx",
+        "name": "model4"
+    },
+    {
+        "fbx": "model2/Model2_20190615.fbx",
+        "name": "model2"
     }
 ]
