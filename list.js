@@ -157,10 +157,6 @@
         "name": "env_FourSeasons/a_FourSeasons"
     },
     {
-        "fbx": "model1/Model1_20190615.fbx",
-        "name": "model1"
-    },
-    {
         "mtl": "intersection/materials.mtl",
         "obj": "intersection/intersection.obj",
         "name": "intersection"
@@ -677,15 +673,19 @@
         "name": "e_four_seasons"
     },
     {
-        "fbx": "model3/Model3_20190615.fbx",
-        "name": "model3"
+        "fbx": "ap_Tutorial/assets/Model3_20190615.json",
+        "name": "ap_Tutorial/Model3_20190615"
     },
     {
-        "fbx": "model4/Model4_20190615.fbx",
-        "name": "model4"
+        "fbx": "ap_Tutorial/assets/Model4_20190615.json",
+        "name": "ap_Tutorial/Model4_20190615"
     },
     {
-        "fbx": "model2/Model2_20190615.fbx",
-        "name": "model2"
+        "fbx": "ap_Tutorial/assets/Model1_20190615.json",
+        "name": "ap_Tutorial/Model1_20190615"
+    },
+    {
+        "fbx": "ap_Tutorial/assets/Model2_20190615.json",
+        "name": "ap_Tutorial/Model2_20190615"
     }
 ]
