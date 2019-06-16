@@ -1,0 +1,23 @@
+{
+    "AssetID": "Model2",
+    "Components": [
+        {
+            "Asset": "../components/Model2.fbx",
+            "Offset": [
+                0,
+                0,
+                0
+            ],
+            "Rotation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ]
+        }
+    ]
+}

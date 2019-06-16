@@ -673,19 +673,19 @@
         "name": "e_four_seasons"
     },
     {
-        "fbx": "ap_Tutorial/assets/Model3_20190615.json",
-        "name": "ap_Tutorial/Model3_20190615"
+        "fbx": "ap_Tutorial/assets/Model1.json",
+        "name": "ap_Tutorial/Model1"
     },
     {
-        "fbx": "ap_Tutorial/assets/Model4_20190615.json",
-        "name": "ap_Tutorial/Model4_20190615"
+        "fbx": "ap_Tutorial/assets/Model4.json",
+        "name": "ap_Tutorial/Model4"
     },
     {
-        "fbx": "ap_Tutorial/assets/Model1_20190615.json",
-        "name": "ap_Tutorial/Model1_20190615"
+        "fbx": "ap_Tutorial/assets/Model2.json",
+        "name": "ap_Tutorial/Model2"
     },
     {
-        "fbx": "ap_Tutorial/assets/Model2_20190615.json",
-        "name": "ap_Tutorial/Model2_20190615"
+        "fbx": "ap_Tutorial/assets/Model3.json",
+        "name": "ap_Tutorial/Model3"
     }
 ]
