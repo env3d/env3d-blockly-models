@@ -29,10 +29,6 @@
         "name": "test-house-b"
     },
     {
-        "fbx": "tutorial-test-character/test_character1_2190608.fbx",
-        "name": "tutorial-test-character"
-    },
-    {
         "fbx": "ap_RoadsAndSigns/assets/a_road_curve_ab.json",
         "name": "ap_RoadsAndSigns/a_road_curve_ab"
     },
@@ -161,8 +157,8 @@
         "name": "env_FourSeasons/a_FourSeasons"
     },
     {
-        "fbx": "test_character_3/test_character3.fbx",
-        "name": "test_character_3"
+        "fbx": "model1/Model1_20190615.fbx",
+        "name": "model1"
     },
     {
         "mtl": "intersection/materials.mtl",
@@ -170,17 +166,9 @@
         "name": "intersection"
     },
     {
-        "fbx": "tutorial-character-1/character1.fbx",
-        "name": "tutorial-character-1"
-    },
-    {
         "obj": "rio/model-triangulated.obj",
         "mtl": "rio/materials.mtl",
         "name": "rio"
-    },
-    {
-        "fbx": "test_character_2/test_character2.fbx",
-        "name": "test_character_2"
     },
     {
         "fbx": "ap_TownBuildings/assets/a_deco_vase_square_aa.json",
@@ -683,10 +671,6 @@
     {
         "fbx": "ap_Furniture/assets/a_deco_windchimes_aa.json",
         "name": "ap_Furniture/a_deco_windchimes_aa"
-    },
-    {
-        "obj": "test_char_obj/Character1_20190612.obj",
-        "name": "test_char_obj"
     },
     {
         "fbx": "e_four_seasons/e_four_seasons.json",
