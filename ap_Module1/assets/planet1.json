@@ -1,8 +1,8 @@
 {
-    "AssetID": "Model1",
+    "AssetID": "planet1",
     "Components": [
         {
-            "Asset": "../components/Model1.fbx",
+            "Asset": "../components/Model3.fbx",
             "Offset": [
                 0,
                 0,

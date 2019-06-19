@@ -1,8 +1,8 @@
 {
-    "AssetID": "Model2",
+    "AssetID": "Spaceship",
     "Components": [
         {
-            "Asset": "../components/Model2.fbx",
+            "Asset": "../components/spaceship.fbx",
             "Offset": [
                 0,
                 0,

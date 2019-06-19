@@ -1,8 +1,8 @@
 {
-    "AssetID": "Model3",
+    "AssetID": "Jack",
     "Components": [
         {
-            "Asset": "../components/Model3.fbx",
+            "Asset": "../components/jack.fbx",
             "Offset": [
                 0,
                 0,
