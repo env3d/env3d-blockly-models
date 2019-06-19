@@ -167,22 +167,6 @@
         "name": "rio"
     },
     {
-        "fbx": "ap_Module1/assets/planet2.json",
-        "name": "ap_Module1/planet2"
-    },
-    {
-        "fbx": "ap_Module1/assets/planet1.json",
-        "name": "ap_Module1/planet1"
-    },
-    {
-        "fbx": "ap_Module1/assets/jack.json",
-        "name": "ap_Module1/jack"
-    },
-    {
-        "fbx": "ap_Module1/assets/spaceship.json",
-        "name": "ap_Module1/spaceship"
-    },
-    {
         "fbx": "ap_TownBuildings/assets/a_deco_vase_square_aa.json",
         "name": "ap_TownBuildings/a_deco_vase_square_aa"
     },
@@ -687,5 +671,21 @@
     {
         "fbx": "e_four_seasons/e_four_seasons.json",
         "name": "e_four_seasons"
+    },
+    {
+        "fbx": "ap_Tutorial/assets/planet2.json",
+        "name": "ap_Tutorial/planet2"
+    },
+    {
+        "fbx": "ap_Tutorial/assets/planet1.json",
+        "name": "ap_Tutorial/planet1"
+    },
+    {
+        "fbx": "ap_Tutorial/assets/jack.json",
+        "name": "ap_Tutorial/jack"
+    },
+    {
+        "fbx": "ap_Tutorial/assets/spaceship.json",
+        "name": "ap_Tutorial/spaceship"
     }
 ]
