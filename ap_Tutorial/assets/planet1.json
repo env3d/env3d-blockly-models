@@ -2,7 +2,7 @@
     "AssetID": "planet1",
     "Components": [
         {
-            "Asset": "../components/Model3.fbx",
+            "Asset": "../components/planet1.fbx",
             "Offset": [
                 0,
                 0,
