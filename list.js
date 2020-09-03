@@ -25,10 +25,6 @@
         "name": "ap_Industries/a_farm_barn_open_aa"
     },
     {
-        "fbx": "test-house-b/testHouse_B.fbx",
-        "name": "test-house-b"
-    },
-    {
         "fbx": "ap_RoadsAndSigns/assets/a_road_curve_ab.json",
         "name": "ap_RoadsAndSigns/a_road_curve_ab"
     },
@@ -241,10 +237,6 @@
     {
         "fbx": "ap_TownBuildings/assets/a_deco_vase_square_ab.json",
         "name": "ap_TownBuildings/a_deco_vase_square_ab"
-    },
-    {
-        "fbx": "test-house-a/testHouse_A.fbx",
-        "name": "test-house-a"
     },
     {
         "fbx": "ap_Flora/assets/a_flower_tulip_ac.json",
@@ -563,8 +555,7 @@
         "name": "ap_Flora/a_grass_desert_ac"
     },
     {
-        "obj": "house/tinker.obj",
-        "mtl": "house/obj.mtl",
+        "fbx": "house/house.fbx",
         "name": "house"
     },
     {
@@ -667,10 +658,6 @@
     {
         "fbx": "ap_Furniture/assets/a_deco_windchimes_aa.json",
         "name": "ap_Furniture/a_deco_windchimes_aa"
-    },
-    {
-        "fbx": "e_four_seasons/e_four_seasons.json",
-        "name": "e_four_seasons"
     },
     {
         "fbx": "ap_Tutorial/assets/planet2.json",
